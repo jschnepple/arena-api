@@ -1,0 +1,14 @@
+Source	Arena	Notes
+Number	number	If Item Number exists, existing item is updated, otherwise item is created. If data is blank, then the default autonumber, based on the category, is used for to create the item."
+Name	name
+Description	description
+Revision	revisionNumber
+Category	category
+Number Format	numberFormat
+Item Phase	lifecyclePhase
+Owner	owner
+Unit Of Measure	uom
+Target Price	targetPrice
+Target Cost	targetCost
+Standard Cost	standardCost
+Inventory on Hand	description	Should be an additional attribute.

@@ -1,0 +1,3 @@
+Number	Target Price	Inventory On Hand
+APITest-001	7.57	123
+APITest-002	6.57	456

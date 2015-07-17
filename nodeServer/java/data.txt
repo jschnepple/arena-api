@@ -1,0 +1,3 @@
+Name	Category	Number Format	Unit Of Measure	Target Price
+Item Import test Z0001	Cable	Temporary Number Sequence	each	1.23
+Item Import test Z0002	Cable	Temporary Number Sequence	each	4.56

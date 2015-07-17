@@ -1,0 +1,4 @@
+Number	Name	Category	Number Format	Unit Of Measure	Target Price
+APITest-001	Item Import test 1	Connector	Basic Item Number	each	1.23
+APITest-002	Item Import test 2	Connector	Basic Item Number	each	4.56
+840	Item Import test 3	Cable Assembly	Assembly	each	7.89
