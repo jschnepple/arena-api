@@ -1,5 +1,5 @@
 var arenaapi = require('./arenaapi.js');
-console.log("in postitems.js");
+console.warn("in postitems.js");
 // Parameters could be hard coded, from command line, etc
 var url = process.env.ARENA_API_URL;
 var email = process.env.ARENA_API_EMAIL;
@@ -9,7 +9,7 @@ var log = process.env.ARENA_API_LOG;
 
 arenaapi.url = url;
 arenaapi.log = '1TtYy'.indexOf(log[0]) != -1;
-console.log("URL = ", url);
+console.warn("URL = ", url);
 handleFileSelect();
 var args = workspaceID ? {email: email, password: password, workspaceId: workspaceID} : {email: email, password: password};
 
@@ -21,7 +21,7 @@ arenaapi.login({}, args, function(statusCode, errors, result) {
       });
     });
   } else
-    console.log(errors);
+    console.warn(errors);
 });
 
     // This will parse a delimited string into an array of
